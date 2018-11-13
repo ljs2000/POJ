@@ -1,5 +1,6 @@
 # POJ
 Principals of Java Programming Repository
+Created by Lucas Serafin for Everyone in Mr. Kirkorians First Period POJ Class
 
 # HOW THIS WORKS
 1.) Upload your entire workspace to the root directory of this Github repository.

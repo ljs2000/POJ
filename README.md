@@ -18,4 +18,4 @@ Created by Lucas Serafin for Everyone in Mr. Kirkorians First Period POJ Class
 
 3.) A safe and easy place to store all store all your work for free!
 
-4.) Learn GitHub now and benifit later. Thousands of the workds biggest companies use GitHub and abyone who wants to be a sucessful and well rounded programmer must learn GitHub at one point or another.
+4.) Learn GitHub now and benifit later! Thousands of the worlds biggest companies use GitHub and anyone who wants to be a sucessful and well rounded programmer must learn GitHub at one point or another. So why not learn now!?

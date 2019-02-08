@@ -10,11 +10,11 @@ public class Factorial {
 		System.out.println("Enter a number: \n");
 		number = input.nextInt();		
 		
-		for(int i = number; number < 1; number--) {
+		for(int i = number; number > 1; number--) {
 			factorial *= number;
-			System.out.println(factorial);
 			
 		}
+		System.out.println("The factorial of " + number + " is: \n" + factorial);
 		input.close();	
 	}
 

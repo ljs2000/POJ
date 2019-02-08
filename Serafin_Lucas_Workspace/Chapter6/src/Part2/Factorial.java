@@ -12,10 +12,9 @@ public class Factorial {
 		
 		for(int i = number; number < 1; number--) {
 			factorial *= number;
-		}
+			System.out.println(factorial);
 			
-		System.out.println();
-		
+		}
 		input.close();	
 	}
 

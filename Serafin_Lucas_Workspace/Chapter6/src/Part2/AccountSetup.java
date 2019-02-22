@@ -14,10 +14,13 @@ public class AccountSetup {
 		System.out.println("Enter your username: \n");
 		username = input.next();
 		
-		for(String i = password; password.length() <= 8;) {
-			
+		System.out.println("Enter your password that is at least 8 characters: \n");
+		password = input.next();
+		
+		while(password.length() <= 8 ) {
+		
 			System.out.println("Enter your password that is at least 8 characters: \n");
-			password = input.toString();
+			password = input.next();
 			
 		}
 	

@@ -15,25 +15,37 @@ public class ElapsedTimeCalculator {
 	
 	int startingHour;
 	
+	int endingHour;
+	
 	int hoursElapsed;
 	
-	int total;
+	int timeElapsed;
+
 	
 	String amorpm = null;
 		
 	Scanner input = new Scanner(System.in);
 	
-	System.out.println("Enter the starting hour: ");
+	System.out.println("Enter the starting hour: \n");
 	
 	startingHour = input.nextInt();
 	
-	System.out.println("Enter am or pm: ");
+	System.out.println("Enter am or pm: \n");
 	
-	amorpm = input.nextLine();
+	amorpm = input.next();
 	
-	System.out.println("Enter the number of hours elapsed: ");
+	System.out.println("Enter the number of hours elapsed: \n");
 	
 	hoursElapsed = input.nextInt();
+	
+	endingHour = startingHour - hoursElapsed;
+	
+	timeElapsed = startingHour - endingHour;
+	
+	
+
+	
+	System.out.println("The time is: " + timeElapsed + " " + amorpm + "\n" );
 		
 	}
 
